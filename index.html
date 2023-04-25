@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Stopwatch</h1>
+        <div class="timer">
+            <p><span class="hours">--</span></p>
+            <p><span class="minutes">--</span></p>
+            <p><span class="seconds">--</span></p>
+            <button id="start" onclick=timerStart()>Start</button>
+            <button id="stop" onclick=timerStop()>Stop</button>
+            <button id="reset" onclick=timerReset()>Reset</button>
+        </div>
+
+        <!-- <div class="output">
+            <p><span class="hour">--</span></p>
+            <p><span class="minute">--</span></p>
+            <p><span class="second">--</span></p>
+            <button id="delete">X</button>
+        </div> -->
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
